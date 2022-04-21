@@ -6,7 +6,13 @@ st.header('Contents of st.experimental_get_query_params')
 st.write(st.experimental_get_query_params)
 
 st.markdown('''
-In the above URL bar of your internet browser, append at the end of the URL the following:
+In the above URL bar of your internet browser, append the following:
 
-`?name=Jack&surname=Database`
+`?name=Jack&surname=Beanstalk`
+
+after the base URL `http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/`
+
+such that it becomes 
+
+`http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?name=Jack&surname=Beanstalk`
 ''')
