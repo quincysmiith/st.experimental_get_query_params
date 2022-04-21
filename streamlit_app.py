@@ -23,4 +23,4 @@ st.write(st.experimental_get_query_params())
 # Retrieving and displaying information from the URL
 st.header('Retrieving and displaying information from the URL')
 
-st.write(st.experimental_get_query_params['name'][0])
+st.write(st.experimental_get_query_params()['name'][0])
