@@ -2,6 +2,9 @@ import streamlit as st
 
 st.title('st.experimental_get_query_params')
 
+with st.expander('About this app')
+  st.write("`st.experimental_get_query_params` allows the retrieval of query parameters from the URL of user's browser.")
+
 # Instructions
 st.header('1. Instructions')
 st.markdown('''
