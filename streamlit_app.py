@@ -14,7 +14,7 @@ after the base URL `http://share.streamlit.io/dataprofessor/st.experimental_get_
 
 such that it becomes 
 
-`http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?name=Jack&surname=Beanstalk`
+`http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?firstname=Jack&surname=Beanstalk`
 ''')
 
 st.write(st.experimental_get_query_params())
@@ -23,4 +23,7 @@ st.write(st.experimental_get_query_params())
 # Retrieving and displaying information from the URL
 st.header('Retrieving and displaying information from the URL')
 
-st.write(st.experimental_get_query_params()['name'][0])
+firstname = st.experimental_get_query_params()['firstname'][0]
+surname = st.experimental_get_query_params()['surname'][0]
+
+st.write(f'Hello {firstname} {surname}, how are you?')
