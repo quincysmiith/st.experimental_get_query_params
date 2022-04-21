@@ -2,8 +2,8 @@ import streamlit as st
 
 st.title('st.experimental_get_query_params')
 
+# Contents of st.experimental_get_query_params
 st.header('Contents of st.experimental_get_query_params')
-st.write(st.experimental_get_query_params)
 
 st.markdown('''
 In the above URL bar of your internet browser, append the following:
@@ -16,3 +16,11 @@ such that it becomes
 
 `http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?name=Jack&surname=Beanstalk`
 ''')
+
+st.write(st.experimental_get_query_params())
+
+
+# Retrieving and displaying information from the URL
+st.header('Retrieving and displaying information from the URL')
+
+st.write(st.experimental_get_query_params['name'][0])
