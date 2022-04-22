@@ -13,7 +13,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?firstname=Jack&surname=Beanstalk)
 
 ## Code
-Here's how to use `st.write`:
+Here's how to use `st.experimental_get_query_params`:
 ```python
 import streamlit as st
 
