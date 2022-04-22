@@ -19,6 +19,7 @@ such that it becomes
 `http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?firstname=Jack&surname=Beanstalk`
 ''')
 
+
 # 2. Contents of st.experimental_get_query_params
 st.header('2. Contents of st.experimental_get_query_params')
 st.write(st.experimental_get_query_params())
