@@ -4,10 +4,12 @@
 
 ## Demo app
 
-The following link loads the demo app with no query parameters (notice the error message)
+1. The following link loads the demo app with no query parameters (notice the error message):
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.experimental_get_query_params/)
 
-The following link loads the demo app with query parameters (no error message here)
+2. The following link loads the demo app with query parameters (no error message here):
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?firstname=Jack&surname=Beanstalk)
 
 ## Code
@@ -94,4 +96,4 @@ st.write(f'Hello **{firstname} {surname}**, how are you?')
 ```
 
 ## Further reading
-- [`st.experimental_get_query_params`]()
+- [`st.experimental_get_query_params`](https://docs.streamlit.io/library/api-reference/utilities/st.experimental_get_query_params)
