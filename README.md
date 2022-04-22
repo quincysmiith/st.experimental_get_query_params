@@ -1,10 +1,10 @@
-# st.template
+# st.experimental_get_query_params
 
-`st.template` allows writing text and arguments to the Streamlit app.
+`st.experimental_get_query_params` allows the retrieval of query parameters directly from the URL of the user's browser.
 
 ## Demo app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.template/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.experimental_get_query_params/)
 
 ## Code
 Here's how to use `st.write`:
