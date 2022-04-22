@@ -5,7 +5,7 @@ st.title('st.experimental_get_query_params')
 with st.expander('About this app'):
   st.write('`st.experimental_get_query_params` allows the retrieval of query parameters from the URL of user browser.')
 
-# Instructions
+# 1. Instructions
 st.header('1. Instructions')
 st.markdown('''
 In the above URL bar of your internet browser, append the following:
@@ -19,12 +19,12 @@ such that it becomes
 `http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?firstname=Jack&surname=Beanstalk`
 ''')
 
-# Contents of st.experimental_get_query_params
+# 2. Contents of st.experimental_get_query_params
 st.header('2. Contents of st.experimental_get_query_params')
 st.write(st.experimental_get_query_params())
 
 
-# Retrieving and displaying information from the URL
+# 3. Retrieving and displaying information from the URL
 st.header('3. Retrieving and displaying information from the URL')
 
 firstname = st.experimental_get_query_params()['firstname'][0]
